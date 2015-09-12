@@ -10,8 +10,8 @@ PRODUCT_COPY_FILES += \
     $(RAMDISK_PATH)/fs/res/misc/silence.wav:root/res/misc/silence.wav \
     $(RAMDISK_PATH)/fs/res/misc/install-recovery.sh:root/res/misc/install-recovery.sh \
     $(RAMDISK_PATH)/fs/res/bc/bccontroller.sh:root/res/bc/bccontroller.sh \
+    $(RAMDISK_PATH)/fs/res/misc/boeffla-config-reset-v4.zip:root/res/misc/boeffla-config-reset-v4.zip \
     $(LOCAL_PATH)/init.rc:root/init.rc
-#    $(RAMDISK_PATH)/fs/res/misc/boeffla-config-reset-v4.zip:root/res/misc/boeffla-config-reset-v4.zip
 
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.adb.secure=0 \
